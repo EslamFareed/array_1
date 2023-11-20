@@ -1,6 +1,7 @@
+import 'package:array_1/session2_flutter.dart';
 import 'package:flutter/material.dart';
 
-import 'home_screen.dart';
+import 'camera_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,19 +15,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: Session2Flutter(),
     );
   }
 }
 
 // class HomeScreen extends StatelessWidget {
 //   const HomeScreen({super.key});
-
 //   @override
 //   Widget build(BuildContext context) {
 //     // print(MediaQuery.sizeOf(context).width);
 //     // print(MediaQuery.sizeOf(context).height);
-
 //     return DefaultTabController(
 //       length: 3,
 //       child: Scaffold(
@@ -104,10 +103,8 @@ class MyApp extends StatelessWidget {
 //     );
 //   }
 // }
-
 // class Screen1 extends StatelessWidget {
 //   const Screen1({super.key});
-
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
@@ -115,10 +112,8 @@ class MyApp extends StatelessWidget {
 //     );
 //   }
 // }
-
 // class Screen2 extends StatelessWidget {
 //   const Screen2({super.key});
-
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
@@ -126,10 +121,8 @@ class MyApp extends StatelessWidget {
 //     );
 //   }
 // }
-
 // class Screen3 extends StatelessWidget {
 //   const Screen3({super.key});
-
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
@@ -137,8 +130,6 @@ class MyApp extends StatelessWidget {
 //     );
 //   }
 // }
-
-
  // body: const Center(
         //   child: Card(
         //     child: ListTile(

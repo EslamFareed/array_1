@@ -38,6 +38,10 @@ dependencies:
   camera: ^0.10.5+5
   screenshot: ^2.1.0
   path_provider: ^2.1.1
+  # assets_audio_playre: ^3.1.1
+  video_player: ^2.8.1
+  syncfusion_flutter_pdfviewer: ^23.2.4
+  webview_flutter: ^4.4.2
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +67,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/placeholder.jpg
+    - assets/sounds/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
