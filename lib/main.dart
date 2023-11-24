@@ -1,10 +1,15 @@
 import 'package:array_1/session2_flutter.dart';
+import 'package:array_1/session3_screen.dart';
+import 'package:array_1/shared_helper.dart';
 import 'package:flutter/material.dart';
 
 import 'camera_screen.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await SharedHelper.init();
+
   runApp(const MyApp());
 }
 
@@ -15,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Session2Flutter(),
+      home: Session3Screen(),
     );
   }
 }
